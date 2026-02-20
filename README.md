@@ -10,6 +10,26 @@
 }
 ```
 
+### Using only Python updates
+
+```json
+{
+  "extends": [
+    "local>34j/renovate-scientific-python-spec-0:python"
+  ]
+}
+```
+
+### Using only core package updates
+
+```json
+{
+  "extends": [
+    "local>34j/renovate-scientific-python-spec-0:core-packages"
+  ]
+}
+```
+
 ## Details
 
 From [SPEC 0 - Minimum Supported Dependencies][spec-0]:
