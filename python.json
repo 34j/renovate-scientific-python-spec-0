@@ -3,7 +3,7 @@
     {
       "matchPackageNames": ["python"],
       "rangeStrategy": "bump",
-      "minimumReleaseAge": "3 years",
+      "minimumReleaseAge": "2 years",
       "separateMultipleMinor": true
     }
   ]

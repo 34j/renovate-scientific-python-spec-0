@@ -14,7 +14,8 @@
         "zarr"
       ],
       "minimumReleaseAge": "2 years",
-      "rangeStrategy": "bump"
+      "rangeStrategy": "bump",
+      "separateMultipleMinor": true
     }
   ]
 }
