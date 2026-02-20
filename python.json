@@ -4,7 +4,8 @@
       "matchPackageNames": ["python"],
       "rangeStrategy": "bump",
       "minimumReleaseAge": "2 years",
-      "separateMultipleMinor": true
+      "separateMultipleMinor": true,
+      "separateMultipleMajor": true
     }
   ]
 }

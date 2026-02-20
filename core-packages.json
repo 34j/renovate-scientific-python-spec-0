@@ -15,7 +15,8 @@
       ],
       "minimumReleaseAge": "2 years",
       "rangeStrategy": "bump",
-      "separateMultipleMinor": true
+      "separateMultipleMinor": true,
+      "separateMultipleMajor": true
     }
   ]
 }
