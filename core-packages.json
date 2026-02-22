@@ -16,7 +16,8 @@
       "minimumReleaseAge": "2 years",
       "rangeStrategy": "bump",
       "separateMultipleMinor": true,
-      "separateMultipleMajor": true
+      "separateMultipleMajor": true,
+      "branchTopic": "{{{depNameSanitized}}}-{{{newMajor}}}.{{{newMinor}}}.x{{#if isLockfileUpdate}}-lockfile{{/if}}"
     }
   ]
 }
