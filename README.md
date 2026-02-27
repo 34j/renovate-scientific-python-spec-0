@@ -61,6 +61,7 @@ From [SPEC 0 - Minimum Supported Dependencies][spec-0]:
 
 - [`matchCurrentAge`](https://docs.renovatebot.com/configuration-options/#matchcurrentage) only takes into account the age of the **current** version, so it cannot be used here.
 - [`separateMultipleMinor`][separateMultipleMinor] is used to separate updates for different minor versions for Python.
+- [`matchDepTypes`] is used to only update `requires-python` for Python and `dependencies` for core packages.
 
 [renovate]: https://github.com/renovatebot/renovate
 [spec-0]: https://scientific-python.org/specs/spec-0000/

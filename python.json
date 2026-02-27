@@ -2,6 +2,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["python"],
+      "matchDepTypes": ["requires-python"],
       "rangeStrategy": "bump",
       "minimumReleaseAge": "2 years",
       "separateMultipleMinor": true,

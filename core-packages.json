@@ -13,6 +13,7 @@
         "ipython",
         "zarr"
       ],
+      "matchDepTypes": ["dependencies"],
       "minimumReleaseAge": "2 years",
       "rangeStrategy": "bump",
       "separateMultipleMinor": true,
